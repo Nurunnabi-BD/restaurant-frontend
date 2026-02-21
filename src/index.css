@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  /* Primary & Branding */
+  --color-primary: #FF6B35;   
+  --color-secondary: #FFB400; 
+  --color-accent: #00B4D8;    
+
+  /* Backgrounds */
+  --color-bg-light: #FFFFFF;   
+  --color-bg-dark: #1E1E1E;    
+
+  /* Text */
+  --color-text-primary: #333333;  
+  --color-text-secondary: #666666;
+  --color-text-accent: #FF6B35;   
+
+  /* Buttons & Hover */
+  --color-btn-hover: #FF854D;    
+}
+
+/* Example Usage */
+body {
+  background-color: var(--color-bg-light);
+  color: var(--color-text-primary);
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: var(--color-btn-hover);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  color: var(--color-primary);
+}
